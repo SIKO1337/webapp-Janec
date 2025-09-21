@@ -39,6 +39,10 @@ input, textarea {
     font-size: 14px;
     width: 250px;
 }
+footer{
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
 
 .section {
     background: rgba(255,255,255,0.8);
