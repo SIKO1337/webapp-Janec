@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>WebSite</title>
+</head>
+<body>
+
+<h1 id="title">Hello World</h1>
+<div class="section">
+    <h2>Background Color Changer</h2>
+    <button id="btn">Change Color</button>
+</div>
+
+<div class="section">
+    <h2>Random Number Generator</h2>
+    <button id="randBtn">Generate Number</button>
+    <p id="randResult">Click to generate a number between 1 and 100.</p>
+</div>
+
+<div class="section">
+    <h2>Feedback Form</h2>
+    <form id="feedbackForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required><br><br>
+        
+        <label for="feedback">Feedback:</label><br>
+        <textarea id="feedback" rows="4" cols="30" required></textarea><br><br>
+        
+        <button type="submit">Submit</button>
+    </form>
+    <p id="formMessage"></p>
+</div>
+
+
+<div class="section">
+    <h2>About This Practice Site</h2>
+    <p>This is a practice site for HTML, CSS, and JavaScript!</p>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
